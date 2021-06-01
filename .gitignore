@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Vs Code
+/.vscode/
+*/__pycache__/
+
+# Results and Input Folders
+/SpaCy/results/*
+!/SpaCy/results/.gitkeep
+/SpaCy/input/*
+!/SpaCy/input/.gitkeep
